@@ -1,0 +1,69 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.container {
+    width: 100%;
+    height: 
+    margin: 0 auto;
+    background: #eee;
+    text-align: center;
+    padding: 10px 20px 50px;
+}
+
+.innerBox {
+    background: white;
+    width: 90%;
+    height: 550px;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+.column1 {
+    width: 50%;
+    height: 100%;
+    padding: 10px 10px 20px;
+    box-sizing: border-box;
+    display: inline;
+    float: left;    
+}
+
+.box1 {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: #ff9300;
+    vertical-align: 100%;
+}
+
+.column2 {
+    width: 50%;
+    height: 100%;
+    padding: 10px 10px 20px;
+    display: inline;
+    float: right;
+    box-sizing: border-box;
+    
+}
+
+.box2 {
+    position: relative;
+    width: 100%;
+    height: 40%;
+    background: #b7e800;
+    margin-bottom: 2%;
+    box-sizing: border-box;
+    vertical-align: middle;
+    
+}
+
+.box3 {
+    position: relative;
+    width: 100%;
+    height: 58%;
+    
+    vertical-align: middle;
+    background: #5fb1ff;
+    box-sizing: border-box;
+}
